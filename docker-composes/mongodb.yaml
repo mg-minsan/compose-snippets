@@ -1,6 +1,7 @@
 name: mongodb
 description: docker compose for mongodb
 keywords: docker, compose, mongodb
+service:
   mongodb:
     image: mongo:latest
     container_name: mongodb
