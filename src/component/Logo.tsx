@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import icon from '../../icons/compose-gen.png';
+import icon from '../../icons/compose-snippets.png';
 const Logo = () => {
   return (
     <div className="flex items-center justify-center mt-8">
