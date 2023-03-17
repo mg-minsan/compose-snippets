@@ -1,4 +1,4 @@
-# <image src="./icons/compose-snippets.png"> Compose Snippets
+# <image src="./icons/compose-snippets.png" width="88" height="88"> Compose Snippets
 
 Compose Snippets is a  collection of docker-compose for various services.
 
