@@ -22,3 +22,7 @@ yarn dev
 # or
 pnpm dev
 ```
+  
+## LICENSE
+
+[MIT](LICENSE)
