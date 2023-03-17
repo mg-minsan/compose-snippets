@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-snippets": "node bin/generate-snippets.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.13",
@@ -16,6 +17,7 @@
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "next": "13.2.3",
+    "next-seo": "^5.15.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-syntax-highlighter": "^15.5.0"
@@ -27,6 +29,8 @@
     "eslint-config-next": "13.2.3",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
-    "typescript": "4.9.5"
+    "ts-node": "^10.9.1",
+    "typescript": "4.9.5",
+    "yaml": "^2.2.1"
   }
 }

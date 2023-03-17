@@ -1,0 +1,21 @@
+#!/bin/bash
+BASE=./docker-composes
+if [ -z "$1" ]
+  then
+    echo -e "service name is required"
+    exit 1
+fi
+NAME=$(echo $1 | tr '[:upper:]' '[:lower:]')
+FILEPATH=$BASE/$NAME.yaml
+if test -f "$FILEPATH"; then
+    echo "$FILEPATH exists."
+    exit
+fi
+
+touch $FILEPATH
+cat << EOF > $FILEPATH
+name: ${NAME}
+description:
+keywords:
+service:
+EOF

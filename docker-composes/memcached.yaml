@@ -1,0 +1,10 @@
+name: memcached
+description: docker compose for memcached 
+keywords: docker, compose, memcached
+service:
+  memcached:
+    image: memcached:latest
+    container_name: memcached
+    restart: always
+    ports:
+      - "11211:11211"

@@ -1,4 +1,8 @@
-const postgres = `db:
+name: postgres
+description: docker compose for postgres
+keywords: docker, compose, postgres
+service:
+  db:
     image: postgres
     restart: always
     user: postgres
@@ -16,6 +20,3 @@ const postgres = `db:
       interval: 10s
       timeout: 5s
       retries: 5
-`;
-
-export default postgres;

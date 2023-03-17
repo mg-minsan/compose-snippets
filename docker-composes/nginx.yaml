@@ -1,0 +1,13 @@
+name: nginx
+description: docker compose for Nginx 
+keywords: docker, compose, Nginx 
+service:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    restart: always
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+      - "443:443"

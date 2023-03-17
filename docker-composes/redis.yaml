@@ -1,0 +1,8 @@
+name: redis
+description: Docker compose for Redis
+keywords: docker, compose, redis
+service:
+  redis:
+    image: redislabs/redismod
+    ports:
+      - '6379:6379'

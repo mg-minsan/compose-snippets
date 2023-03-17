@@ -1,0 +1,14 @@
+name: mongodb
+description: docker compose for mongodb
+keywords: docker, compose, mongodb
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongodb_data:/data/db
+    ports:
+      - "27017:27017"
