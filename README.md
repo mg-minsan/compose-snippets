@@ -5,7 +5,7 @@ Compose Snippets is a  collection of docker-compose for various services.
 ## How to contribute a snippet
 To contribute a snippet you can create a new YAML file with the service name as the filename in the ```docker-compose `` directory. 
 
-You can use ```bin/new []``` to create a new YAML file too. This will create a new YAML file with the required fields.
+You can use ```bin/new``` followed by the name of the serivce to create a new YAML file too. This will create a new YAML file with the required fields.
 
 The ```name`` field will become a slug and search option on the website. Each YAML will be statically generated to a page with the name as the slug of the page.
 
