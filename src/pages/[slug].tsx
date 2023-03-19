@@ -26,7 +26,7 @@ const IndexPage: NextPage<{
           },
         ]}
       />
-      <main className="w-2/3 ml-auto mr-auto flex flex-col">
+      <main className="md:w-2/3 flex flex-col md:mx-auto mx-4">
         <Logo />
         <CommandPalette slugs={slugs} />
         <CodeBlock content={content} />
